@@ -269,7 +269,7 @@ Is the calendar right, and does the rule work?
 
 *Also saved as [`docs/plan-interview-leo.md`](plan-interview-leo.md).*
 
-### 2.1 Assumptions
+### 4.1 Assumptions
 
 1. **Capacity:** about 8 hours per person per week, so about 60 hours per person over the 8 weeks (Thanksgiving week at half capacity). Estimates below are in **person-hours**.
 2. **Integration:** a **copy-paste bridge** is the default design. Staff paste Runway grant text or draft text into our tool, and our tool produces a paste-ready block to take back to the Runway or Claude. Real Runway integration is an upgrade, not a dependency.
@@ -288,7 +288,7 @@ Is the calendar right, and does the rule work?
 | W7 | Dec 7 – 13 | 15 | Handoff: guide, cold-start test |
 | W8 | Dec 14 – 20 | n/a | Final presentation and report |
 
-### 2.2 Architecture (copy-paste bridge)
+### 4.2 Architecture (copy-paste bridge)
 
 ```
  Runway (JayBird)                     AI Grant Agent (Streamlit)                       Airtable
@@ -303,7 +303,7 @@ Is the calendar right, and does the rule work?
                               context block ──copy/paste──► Runway / Claude
 ```
 
-### 2.3 Build order and dependencies
+### 4.3 Build order and dependencies
 
 ```
 T0 Setup & app shell (Tristan) ───────────────┬──────────────────────────────────────┐
@@ -342,7 +342,7 @@ T2 Partner inputs (Tristan) ─────────────────�
 
 ---
 
-### 2.4 Tasks, subtasks, acceptance criteria, estimates, owners
+### 4.4 Tasks, subtasks, acceptance criteria, estimates, owners
 
 > **Legend:** Est = person-hours · Wk = target week · ★ = floor-critical
 
@@ -582,7 +582,7 @@ T2 Partner inputs (Tristan) ─────────────────�
 
 ---
 
-### 2.5 Week-by-week schedule
+### 4.5 Week-by-week schedule
 
 | Week | Leo | Gabe | Charlotte | Tristan | Gate / milestone |
 |---|---|---|---|---|---|
@@ -595,7 +595,7 @@ T2 Partner inputs (Tristan) ─────────────────�
 | **W7** Dec 7–13 | Guide section; demo video (T10.4); results vs. criteria (T11.1) | Guide section | Guide section | Maintenance doc; cold-start test; tag code (T10.2–10.5) | **Handoff to IDEAS** |
 | **W8** Dec 14–20 | Deck (T11.3) | Report sections | Report assembly (T11.2) | `deliverables/` (T11.4) | **Final presentation and report** |
 
-### 2.6 Owner load (floor + committed scope; stretch in parentheses)
+### 4.6 Owner load (floor + committed scope; stretch in parentheses)
 
 | Owner | Tasks | Est hours |
 |---|---|---|
@@ -606,7 +606,7 @@ T2 Partner inputs (Tristan) ─────────────────�
 
 > **Load-balancing note:** Gabe carries both the floor and the Tracker. If Checkpoint 1 passes cleanly, **Charlotte takes T5.4–T5.7** (post-submission fields, win ratio, test data) to free Gabe. Decide this at Checkpoint 1.
 
-### 2.7 Cut-off checkpoints (agreed rule)
+### 4.7 Cut-off checkpoints (agreed rule)
 
 | Checkpoint | Date | Test | If it fails |
 |---|---|---|---|
@@ -617,7 +617,7 @@ T2 Partner inputs (Tristan) ─────────────────�
 
 Each checkpoint is a 15-minute team call. The decision and reason are recorded in `docs/meeting-notes/`.
 
-### 2.8 Scope risks
+### 4.8 Scope risks
 
 | Risk | Likelihood | Impact | Response |
 |---|---|---|---|
@@ -629,7 +629,7 @@ Each checkpoint is a 15-minute team call. The decision and reason are recorded i
 | Gabe overloaded | Medium | Medium | Load-balancing rule at Checkpoint 1 (Charlotte takes T5.4–5.7) |
 | Funder AI-use rules are missed | Low | High | Dedicated T4.6 check, flagged at the top; the reviewer decides disclosure |
 
-### 2.9 Open items to confirm
+### 4.9 Open items to confirm
 
 1. Do the 12 grants need to be **submitted** this semester, or only brought to "ready for review"? (Plan assumes the latter.)
 2. Whether Charlotte or Gabe takes the second half of the Tracker (decide at Checkpoint 1).
